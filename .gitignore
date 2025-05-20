@@ -1,2 +1,16 @@
-# Ignore all data inside the chest_xray_data directory
+# Ignore data and models
 chest_xray_data/
+models/*.pth
+
+# Ignore Python cache and environment
+__pycache__/
+**/__pycache__/
+venv/
+.env/
+.env*/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
