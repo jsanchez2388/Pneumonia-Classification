@@ -1,1 +1,2 @@
-VGG11PneumoniaModel.pth
+# Ignore all data inside the chest_xray_data directory
+chest_xray_data/
